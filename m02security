@@ -1,6 +1,5 @@
-var arr = [];
-while(arr.length < 8){
-    var r = Math.floor(Math.random() * 100) + 1;
-    if(arr.indexOf(r) === -1) arr.push(r);
-}
-console.log(arr);
+import random
+print("The numbers are")
+for i in range(100):
+    number=random.randrange(0,100,20)
+    print(number, end=" ")
